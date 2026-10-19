@@ -1,0 +1,33 @@
+{
+    "format": "cadcraft-edition",
+    "version": 1,
+    "app": "detailcraft",
+    "name": "DetailCraft",
+    "edition": "browser",
+    "release": "0.6",
+    "semver": "0.6.0",
+    "tag": "detailcraft-v0.6.0",
+    "zip": "detailcraft-browser-edition-v0.6.0.zip",
+    "packed_at": "2026-10-19T00:04:14Z",
+    "from": {
+        "build": "0.6",
+        "released_at": "2026-10-19 00:03 UTC",
+        "git": "28f3444 (dev had uncommitted changes)"
+    },
+    "license": "Apache-2.0",
+    "libs": {
+        "noble-ciphers": "2.4.0",
+        "noble-curves": "2.4.0",
+        "noble-hashes": "2.4.0",
+        "three": "0.186.1",
+        "bootstrap": "5.3.8",
+        "bootstrap-icons": "1.13.2",
+        "archivo": "5.2.8"
+    },
+    "changes_to_copied_files": [
+        "Library URLs written as /assets/vendor/<lib>/current/ are pinned to the versions listed in release.json."
+    ],
+    "files": 225,
+    "bytes_before_this_file": 8221272,
+    "notes": "An Analysis tab: frame analysis on your model's own members. Put loads on members (spread or point, any direction), make load cases and combinations, then Run for the forces, moments, reactions and deflections of every beam, column and brace, the deflected shape or a moment diagram on the model, and a report as PDF and CSV. Supports and end releases come from the model (base plates and end plates rigid, shear tabs pinned), with your own where you need them; a frame that can't stand is called out; Export as CraftScript hands the model to PartCraft's frame3d script, which gives the same results. An analysis aid, not a code check. Type a calculation in Properties' number fields (the arrow keys no longer step them). Every app gets Show bars, Reset the layout, a toolbar menu, an interface size and pen and touch. Spanish (es-MX) and, new, Bahasa Indonesia are machine-made drafts, not yet reviewed."
+}

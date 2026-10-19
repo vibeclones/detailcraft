@@ -1,0 +1,25 @@
+{
+  "app": "detailcraft",
+  "css": [
+    "detailcraft.css",
+    "frame/frame-panel.css"
+  ],
+  "module": "detailcraft.js",
+  "imports": {
+    "three": "./assets/vendor/three/0.186.1/three.module.js",
+    "three/addons/": "./assets/vendor/three/0.186.1/addons/",
+    "@noble/curves/": "./assets/vendor/noble-curves/2.4.0/",
+    "@noble/hashes/": "./assets/vendor/noble-hashes/2.4.0/",
+    "@noble/ciphers/": "./assets/vendor/noble-ciphers/2.4.0/"
+  },
+  "phone": true,
+  "panels": [
+    "move",
+    "window"
+  ],
+  "accepts": [
+    "handoff",
+    "live"
+  ],
+  "input": "input-detailcraft.js"
+}
