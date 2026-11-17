@@ -1,0 +1,13 @@
+{
+    "app": "detailcraft",
+    "version": "0.10",
+    "released_at": "2026-11-16 15:53 UTC",
+    "git": "9bac5708 (dev had uncommitted changes)",
+    "libs": {
+        "noble-ciphers": "2.4.0",
+        "noble-curves": "2.4.0",
+        "noble-hashes": "2.4.0",
+        "three": "0.186.1"
+    },
+    "notes": "0.10 (L.2 release-build 2026-11-16)"
+}
